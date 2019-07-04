@@ -9,7 +9,13 @@
     "googleclientlogin": "~0.2.6",
     "lodash": "^2.4.1",
     "request": "^2.51.0",
-    "xml2json": "^0.6.1"
+    "xml2json": "^0.6.1",
+    "snyk": "^1.189.0"
   },
-  "repository": "git://github.com/jpillora/node-edit-google-spreadsheet.git"
+  "repository": "git://github.com/jpillora/node-edit-google-spreadsheet.git",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
