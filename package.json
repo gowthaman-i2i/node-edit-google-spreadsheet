@@ -7,7 +7,7 @@
     "google-oauth-jwt": "~0.1.4",
     "googleapis": "2.0.4",
     "googleclientlogin": "~0.2.6",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.16",
     "request": "^2.51.0",
     "xml2json": "^0.6.1"
   },
